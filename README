@@ -1,7 +1,7 @@
 shortid
 =======
 
-This project is a Go port of [shorturl](https://github.com/mozillazg/ShortURL/blob/master/shorturl/libs/short_url.py) for generating Tiny URL- and bit.ly-like URLs.
+This project is a Go port of https://github.com/mozillazg/ShortURL/blob/master/shorturl/libs/short_url.py for generating Tiny URL- and bit.ly-like URLs.
 
 A bit-shuffling approach is used to avoid generating consecutive, predictable 
 URLs.  However, the algorithm is deterministic and will guarantee that no 
