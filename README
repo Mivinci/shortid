@@ -1,11 +1,14 @@
 shortid
 =======
 
-This project is a Go port of https://github.com/mozillazg/ShortURL/blob/master/shorturl/libs/short_url.py for generating Tiny URL- and bit.ly-like URLs.
+This project is a Go port of 
 
-A bit-shuffling approach is used to avoid generating consecutive, predictable 
-URLs.  However, the algorithm is deterministic and will guarantee that no 
-collisions will occur.
+    https://github.com/mozillazg/ShortURL/blob/master/shorturl/libs/short_url.py 
+
+for generating Tiny URL- and bit.ly-like URLs.
+
+A bit-shuffling approach is used to avoid generating consecutive, predictable URLs. However, 
+the algorithm is deterministic and will guarantee that no collisions will occur.
 
 Sample Usage:
 
@@ -13,5 +16,5 @@ Sample Usage:
 
     func main() {
         shortid.String(12)  // JyNvD
-        shortid.Int("LhKA") // 12
+        shortid.Int("JyNvD") // 12
     }
